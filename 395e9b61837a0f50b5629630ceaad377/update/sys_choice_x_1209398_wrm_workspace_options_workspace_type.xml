@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="workspace_type" table="x_1209398_wrm_workspace_options" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>workspace_type</element>
+            <name>x_1209398_wrm_workspace_options</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-21 14:37:54</sys_created_on>
+            <sys_id>3188f91e83768390b5629630ceaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>workspace_type</sys_name>
+            <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+            <sys_update_name>sys_choice_x_1209398_wrm_workspace_options_workspace_type</sys_update_name>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-21 14:37:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hot desk</label>
+            <language>en</language>
+            <name>x_1209398_wrm_workspace_options</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-21 14:37:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e78f91e83768390b5629630ceaad356</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-21 14:38:27</sys_updated_on>
+            <value>hot_desk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Focus room</label>
+            <language>en</language>
+            <name>x_1209398_wrm_workspace_options</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-21 14:38:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a88b1d2837acf50b5629630ceaad342</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-21 14:38:47</sys_updated_on>
+            <value>focus_room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Collaboration space</label>
+            <language>en</language>
+            <name>x_1209398_wrm_workspace_options</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-21 14:39:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bb8755e83768390b5629630ceaad37b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-21 14:39:22</sys_updated_on>
+            <value>collaboration_space</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting room</label>
+            <language>en</language>
+            <name>x_1209398_wrm_workspace_options</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-21 14:39:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8d8b15e83768390b5629630ceaad325</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-21 14:39:47</sys_updated_on>
+            <value>meeting_room</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
