@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reservation_status" table="x_1209398_wrm_reservation_tracker" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reservation_status</element>
+            <name>x_1209398_wrm_reservation_tracker</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-24 13:42:16</sys_created_on>
+            <sys_id>90980957837e8b90b5629630ceaad319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reservation_status</sys_name>
+            <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+            <sys_update_name>sys_choice_x_1209398_wrm_reservation_tracker_reservation_status</sys_update_name>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-24 13:42:16</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending check-in</label>
+            <language>en</language>
+            <name>x_1209398_wrm_reservation_tracker</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-24 13:42:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab784557837e8b90b5629630ceaad361</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-24 13:43:22</sys_updated_on>
+            <value>pending_check_in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checked-in</label>
+            <language>en</language>
+            <name>x_1209398_wrm_reservation_tracker</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-24 13:43:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58988d1f833e8b90b5629630ceaad38d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-24 13:43:26</sys_updated_on>
+            <value>checked_in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checked-out</label>
+            <language>en</language>
+            <name>x_1209398_wrm_reservation_tracker</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-24 13:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb88d1f833e8b90b5629630ceaad38f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-24 13:43:49</sys_updated_on>
+            <value>checked_out</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_1209398_wrm_reservation_tracker</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-24 13:43:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7d88557837e8b90b5629630ceaad31b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-24 13:44:09</sys_updated_on>
+            <value>cancelled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No-show</label>
+            <language>en</language>
+            <name>x_1209398_wrm_reservation_tracker</name>
+            <sequence>250</sequence>
+            <synonyms/>
+            <sys_created_by>erika.truong</sys_created_by>
+            <sys_created_on>2026-08-24 13:44:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65f88557837e8b90b5629630ceaad31c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>erika.truong</sys_updated_by>
+            <sys_updated_on>2026-08-24 13:44:33</sys_updated_on>
+            <value>no_show</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
