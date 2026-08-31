@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_1209398_wrm.workspace.rejected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello,</p>
+<p>Your workspace reservation request has been rejected.</p>
+<p>Workspace: ${variables.select_workspace}</p>
+<p>Start Date/Time: ${variables.start_date_time}</p>
+<p>Please contact the Workspace Agents team if you have questions.</p>
+<p>Thank you.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Workspace Reservation Rejected</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Workspace Agents">bd0e38cd83830310b5629630ceaad3f6</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Your request ${number}has been rejected </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:25:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1379cdd83430310b5629630ceaad39c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Workspace Reservation Rejected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sysevent_email_action_c1379cdd83430310b5629630ceaad39c</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:35:07</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c1379cdd83430310b5629630ceaad39c</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:29:53</sys_created_on>
+        <sys_id>d3ba5cd583830310b5629630ceaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:29:53</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

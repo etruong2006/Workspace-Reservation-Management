@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1209398_wrm.discordNotification</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>discordNotification</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var discordNotification = Class.create();
+
+discordNotification.prototype = {
+
+    initialize: function() {
+        this.webhookUrl = gs.getProperty(
+            'x_1209398_wrm.discord.webhook_url'
+        );
+    },
+
+    sendMessage: function(message, emoji) {
+
+        // Default emoji if none is provided
+        emoji = emoji || ']]>🚨<![CDATA[';
+
+        if (gs.nil(this.webhookUrl)) {
+            gs.error(
+                'Discord notification failed: ' +
+                'Webhook URL system property is empty.'
+            );
+            return false;
+        }
+
+        try {
+
+            var payload = {
+                content: emoji + ' ' + message
+            };
+
+            var request = new sn_ws.RESTMessageV2();
+
+            request.setEndpoint(this.webhookUrl);
+            request.setHttpMethod('POST');
+            request.setRequestHeader(
+                'Content-Type',
+                'application/json'
+            );
+            request.setRequestBody(
+                JSON.stringify(payload)
+            );
+
+            var response = request.execute();
+            var statusCode = response.getStatusCode();
+
+            gs.info(
+                'Discord notification sent. Status: ' +
+                statusCode
+            );
+
+            return statusCode >= 200 && statusCode < 300;
+
+        } catch (ex) {
+
+            gs.error(
+                'Discord notification failed: ' +
+                ex.message
+            );
+
+            return false;
+        }
+    },
+
+    type: 'discordNotification'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-29 23:39:35</sys_created_on>
+        <sys_id>1900c10583c30310b5629630ceaad309</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>discordNotification</sys_name>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sys_script_include_1900c10583c30310b5629630ceaad309</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:05:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

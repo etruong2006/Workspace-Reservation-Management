@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>send_discord_rejection_notification</internal_name>
+        <label_cache>[{"name":"{{action.reserve_for}}","label":"action➛reserved for","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"a09d59b3-b552-47d5-9cd6-f173f42ee9a0"}},{"name":"{{action.workspace}}","label":"action➛workspace","type":"action","ref":"","reference_display":"Workspace Options","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.workspace_name}}","label":"action➛workspace_name","type":"action","ref":"","reference_display":"Workspace Options","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.reserved_for}}","label":"action➛reserved_for","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>47d5d81d83430310b5629630ceaad3e5</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Discord Rejection Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 14:57:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53439c9583430310b5629630ceaad36d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Discord Rejection Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_53439c9583430310b5629630ceaad36d</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=53439c9583430310b5629630ceaad36d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=53439c9583430310b5629630ceaad36d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>53439c9583430310b5629630ceaad36d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>00b5541d83430310b5629630ceaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">08b5541d83430310b5629630ceaad374</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>53439c9583430310b5629630ceaad36d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>c8b5541d83430310b5629630ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">88b5541d83430310b5629630ceaad37b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_53439c9583430310b5629630ceaad36d^id=53439c9583430310b5629630ceaad36d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=53439c9583430310b5629630ceaad36d^sys_idNOT IN8cb5541d83430310b5629630ceaad32b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</action>
+        <cid>ef21685d-3b2c-4ff9-8b01-db6cb485de6f</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>8cb5541d83430310b5629630ceaad32b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:22</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8cb5541d83430310b5629630ceaad32b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8cb5541d83430310b5629630ceaad32b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>4cb5541d83430310b5629630ceaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8cb5541d83430310b5629630ceaad32b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>c0b5541d83430310b5629630ceaad371</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:22</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    // ==========================================&#13;
+    // 1. Get Reserved For User&#13;
+    // ==========================================&#13;
+&#13;
+    var userName = '';&#13;
+&#13;
+    var userGR = new GlideRecord('sys_user');&#13;
+&#13;
+    if (userGR.get(inputs.reserved_for)) {&#13;
+        userName = userGR.getDisplayValue();&#13;
+    } else {&#13;
+        userName = inputs.reserved_for;&#13;
+    }&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 2. Get Workspace Name&#13;
+    // ==========================================&#13;
+&#13;
+    var workspaceName = '';&#13;
+&#13;
+    var workspaceGR = new GlideRecord('x_1209398_wrm_workspace_options');&#13;
+&#13;
+    if (workspaceGR.get(inputs.workspace_name)) {&#13;
+        workspaceName = workspaceGR.getDisplayValue();&#13;
+    } else {&#13;
+        workspaceName = inputs.workspace_name;&#13;
+    }&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 3. Get Rejection Reason&#13;
+    // ==========================================&#13;
+&#13;
+    var rejectionReason = inputs.rejection_reason;&#13;
+&#13;
+    if (gs.nil(rejectionReason)) {&#13;
+        rejectionReason = 'No reason provided.';&#13;
+    }&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 4. Build Discord Message&#13;
+    // ==========================================&#13;
+&#13;
+    var message =&#13;
+        '**Workspace Request Rejected**\n\n' +&#13;
+        '**User:** ' + userName + '\n' +&#13;
+        '**Workspace:** ' + workspaceName + '\n' +&#13;
+        '**Reason:** ' + rejectionReason;&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 5. Send Discord Notification&#13;
+    // ==========================================&#13;
+&#13;
+    var discord = new discordNotification();&#13;
+&#13;
+    discord.sendMessage(message, '❌');&#13;
+&#13;
+&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8cb5541d83430310b5629630ceaad32b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8cb5541d83430310b5629630ceaad32b</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>44b5541d83430310b5629630ceaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reserved_for</field>
+        <id>8cb5541d83430310b5629630ceaad32b</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:22</sys_created_on>
+        <sys_id>b45f0fed83cfc310b5629630ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:22</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8cb5541d83430310b5629630ceaad32b</table>
+        <value>{{action.reserved_for}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8cb5541d83430310b5629630ceaad32b</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>88b5541d83430310b5629630ceaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>workspace_name</field>
+        <id>8cb5541d83430310b5629630ceaad32b</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:22</sys_created_on>
+        <sys_id>f05f0fed83cfc310b5629630ceaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:22</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8cb5541d83430310b5629630ceaad32b</table>
+        <value>{{action.workspace_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8cb5541d83430310b5629630ceaad32b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8cb5541d83430310b5629630ceaad32b"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8cb5541d83430310b5629630ceaad32b^sys_idNOT INb05f0fed83cfc310b5629630ceaad318,b45f0fed83cfc310b5629630ceaad31d"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reserved_for</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">8cb5541d83430310b5629630ceaad32b</model>
+        <model_id>8cb5541d83430310b5629630ceaad32b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8cb5541d83430310b5629630ceaad32b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:22</sys_created_on>
+        <sys_id>b05f0fed83cfc310b5629630ceaad318</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>workspace_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">8cb5541d83430310b5629630ceaad32b</model>
+        <model_id>8cb5541d83430310b5629630ceaad32b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8cb5541d83430310b5629630ceaad32b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1209398_wrm_workspace_options">x_1209398_wrm_workspace_options</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:22</sys_created_on>
+        <sys_id>b45f0fed83cfc310b5629630ceaad31d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8cb5541d83430310b5629630ceaad32b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8cb5541d83430310b5629630ceaad32b"/>
+    <sys_hub_action_input action="delete_multiple" query="model=53439c9583430310b5629630ceaad36d^sys_idNOT IN205fcbed83cfc310b5629630ceaad3b2,e05fcbed83cfc310b5629630ceaad3bc"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=c539d17c-7262-4b6d-9260-5c4125860fd9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reserved_for</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>reserved_for</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</model>
+        <model_id>53439c9583430310b5629630ceaad36d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_53439c9583430310b5629630ceaad36d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:21</sys_created_on>
+        <sys_id>205fcbed83cfc310b5629630ceaad3b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=205fcbed83cfc310b5629630ceaad3b2"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e864de54-87f4-447a-b127-f9d21640c6f5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1209398_wrm_workspace_options</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>workspace_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>workspace_name</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</model>
+        <model_id>53439c9583430310b5629630ceaad36d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_53439c9583430310b5629630ceaad36d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1209398_wrm_workspace_options">x_1209398_wrm_workspace_options</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:21</sys_created_on>
+        <sys_id>e05fcbed83cfc310b5629630ceaad3bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e05fcbed83cfc310b5629630ceaad3bc"/>
+    <sys_hub_action_output action="delete_multiple" query="model=53439c9583430310b5629630ceaad36d^sys_idNOT IN08b5541d83430310b5629630ceaad374,88b5541d83430310b5629630ceaad37b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=efa3d83c-4412-43d4-84dc-d4a1474d7bc7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</model>
+        <model_id>53439c9583430310b5629630ceaad36d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_53439c9583430310b5629630ceaad36d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>08b5541d83430310b5629630ceaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=08b5541d83430310b5629630ceaad374"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=08b5541d83430310b5629630ceaad374"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=e481d913-de92-4e9e-96e1-70b233081f1f,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</model>
+        <model_id>53439c9583430310b5629630ceaad36d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_53439c9583430310b5629630ceaad36d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>88b5541d83430310b5629630ceaad37b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=88b5541d83430310b5629630ceaad37b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=88b5541d83430310b5629630ceaad37b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=53439c9583430310b5629630ceaad36d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=53439c9583430310b5629630ceaad36d^sys_idNOT IN04b5541d83430310b5629630ceaad38d"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</action_type_id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>04b5541d83430310b5629630ceaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=04b5541d83430310b5629630ceaad38d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>workspace_name</element>
+        <help/>
+        <hint/>
+        <label>workspace_name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_53439c9583430310b5629630ceaad36d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:21</sys_created_on>
+        <sys_id>285fcbed83cfc310b5629630ceaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reserved_for</element>
+        <help/>
+        <hint/>
+        <label>reserved_for</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_53439c9583430310b5629630ceaad36d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:21</sys_created_on>
+        <sys_id>6c5fcbed83cfc310b5629630ceaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_53439c9583430310b5629630ceaad36d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_53439c9583430310b5629630ceaad36d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>04b5541d83430310b5629630ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_53439c9583430310b5629630ceaad36d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:07:49</sys_created_on>
+        <sys_id>84b5541d83430310b5629630ceaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:07:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_53439c9583430310b5629630ceaad36d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=53439c9583430310b5629630ceaad36d^sys_idNOT IN1fd51c1d83430310b5629630ceaad376"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1fd51c1d83430310b5629630ceaad376","name":"plan","plan_signature":null}}</plan>
+        <snapshot>6204b52183c3c310b5629630ceaad383</snapshot>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1fd51c1d83430310b5629630ceaad376</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 16:38:33</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>send_discord_rejection_notification</internal_name>
+        <label_cache>[{"name":"{{action.reserve_for}}","label":"action➛reserved for","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"a09d59b3-b552-47d5-9cd6-f173f42ee9a0"}},{"name":"{{action.workspace}}","label":"action➛workspace","type":"action","ref":"","reference_display":"Workspace Options","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.workspace_name}}","label":"action➛workspace_name","type":"action","ref":"","reference_display":"Workspace Options","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.reserved_for}}","label":"action➛reserved_for","type":"action","ref":"","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Discord Rejection Notification</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Discord Rejection Notification">53439c9583430310b5629630ceaad36d</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47d5d81d83430310b5629630ceaad3e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:40</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=47d5d81d83430310b5629630ceaad3e5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=47d5d81d83430310b5629630ceaad3e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>47d5d81d83430310b5629630ceaad3e5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>93d51c1d83430310b5629630ceaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">43d51c1d83430310b5629630ceaad328</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>47d5d81d83430310b5629630ceaad3e5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>d7d51c1d83430310b5629630ceaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">cfd51c1d83430310b5629630ceaad320</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_47d5d81d83430310b5629630ceaad3e5^id=47d5d81d83430310b5629630ceaad3e5"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=47d5d81d83430310b5629630ceaad3e5^sys_idNOT INcfd51c1d83430310b5629630ceaad30c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Discord Rejection Notification">47d5d81d83430310b5629630ceaad3e5</action>
+        <cid>ef21685d-3b2c-4ff9-8b01-db6cb485de6f</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>cfd51c1d83430310b5629630ceaad30c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cfd51c1d83430310b5629630ceaad30c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cfd51c1d83430310b5629630ceaad30c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>47d51c1d83430310b5629630ceaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cfd51c1d83430310b5629630ceaad30c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>8bd51c1d83430310b5629630ceaad31d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    // ==========================================&#13;
+    // 1. Get Reserved For User&#13;
+    // ==========================================&#13;
+&#13;
+    var userName = '';&#13;
+&#13;
+    var userGR = new GlideRecord('sys_user');&#13;
+&#13;
+    if (userGR.get(inputs.reserved_for)) {&#13;
+        userName = userGR.getDisplayValue();&#13;
+    } else {&#13;
+        userName = inputs.reserved_for;&#13;
+    }&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 2. Get Workspace Name&#13;
+    // ==========================================&#13;
+&#13;
+    var workspaceName = '';&#13;
+&#13;
+    var workspaceGR = new GlideRecord('x_1209398_wrm_workspace_options');&#13;
+&#13;
+    if (workspaceGR.get(inputs.workspace_name)) {&#13;
+        workspaceName = workspaceGR.getDisplayValue();&#13;
+    } else {&#13;
+        workspaceName = inputs.workspace_name;&#13;
+    }&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 3. Get Rejection Reason&#13;
+    // ==========================================&#13;
+&#13;
+    var rejectionReason = inputs.rejection_reason;&#13;
+&#13;
+    if (gs.nil(rejectionReason)) {&#13;
+        rejectionReason = 'No reason provided.';&#13;
+    }&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 4. Build Discord Message&#13;
+    // ==========================================&#13;
+&#13;
+    var message =&#13;
+        '**Workspace Request Rejected**\n\n' +&#13;
+        '**User:** ' + userName + '\n' +&#13;
+        '**Workspace:** ' + workspaceName + '\n' +&#13;
+        '**Reason:** ' + rejectionReason;&#13;
+&#13;
+&#13;
+    // ==========================================&#13;
+    // 5. Send Discord Notification&#13;
+    // ==========================================&#13;
+&#13;
+    var discord = new discordNotification();&#13;
+&#13;
+    discord.sendMessage(message, '❌');&#13;
+&#13;
+&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cfd51c1d83430310b5629630ceaad30c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>cfd51c1d83430310b5629630ceaad30c</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>4fd51c1d83430310b5629630ceaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reserved_for</field>
+        <id>cfd51c1d83430310b5629630ceaad30c</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>a96f032183030710b5629630ceaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_cfd51c1d83430310b5629630ceaad30c</table>
+        <value>{{action.reserved_for}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>cfd51c1d83430310b5629630ceaad30c</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>83d51c1d83430310b5629630ceaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>workspace_name</field>
+        <id>cfd51c1d83430310b5629630ceaad30c</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>ed6f032183030710b5629630ceaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_cfd51c1d83430310b5629630ceaad30c</table>
+        <value>{{action.workspace_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=cfd51c1d83430310b5629630ceaad30c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cfd51c1d83430310b5629630ceaad30c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=cfd51c1d83430310b5629630ceaad30c^sys_idNOT IN216f032183030710b5629630ceaad3df,656f032183030710b5629630ceaad3e5"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reserved_for</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>reserved_for</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">cfd51c1d83430310b5629630ceaad30c</model>
+        <model_id>cfd51c1d83430310b5629630ceaad30c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_cfd51c1d83430310b5629630ceaad30c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>216f032183030710b5629630ceaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>workspace_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>workspace_name</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">cfd51c1d83430310b5629630ceaad30c</model>
+        <model_id>cfd51c1d83430310b5629630ceaad30c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_cfd51c1d83430310b5629630ceaad30c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1209398_wrm_workspace_options">x_1209398_wrm_workspace_options</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>656f032183030710b5629630ceaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cfd51c1d83430310b5629630ceaad30c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cfd51c1d83430310b5629630ceaad30c"/>
+    <sys_hub_action_input action="delete_multiple" query="model=47d5d81d83430310b5629630ceaad3e5^sys_idNOT IN116f032183030710b5629630ceaad376,196f032183030710b5629630ceaad397"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=c539d17c-7262-4b6d-9260-5c4125860fd9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reserved_for</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>reserved_for</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Discord Rejection Notification">47d5d81d83430310b5629630ceaad3e5</model>
+        <model_id>47d5d81d83430310b5629630ceaad3e5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_47d5d81d83430310b5629630ceaad3e5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>116f032183030710b5629630ceaad376</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=116f032183030710b5629630ceaad376"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e864de54-87f4-447a-b127-f9d21640c6f5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1209398_wrm_workspace_options</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>workspace_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>workspace_name</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Discord Rejection Notification">47d5d81d83430310b5629630ceaad3e5</model>
+        <model_id>47d5d81d83430310b5629630ceaad3e5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_47d5d81d83430310b5629630ceaad3e5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1209398_wrm_workspace_options">x_1209398_wrm_workspace_options</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>196f032183030710b5629630ceaad397</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=196f032183030710b5629630ceaad397"/>
+    <sys_hub_action_output action="delete_multiple" query="model=47d5d81d83430310b5629630ceaad3e5^sys_idNOT IN43d51c1d83430310b5629630ceaad328,cfd51c1d83430310b5629630ceaad320"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=e481d913-de92-4e9e-96e1-70b233081f1f,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Discord Rejection Notification">47d5d81d83430310b5629630ceaad3e5</model>
+        <model_id>47d5d81d83430310b5629630ceaad3e5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_47d5d81d83430310b5629630ceaad3e5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>43d51c1d83430310b5629630ceaad328</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=43d51c1d83430310b5629630ceaad328"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=43d51c1d83430310b5629630ceaad328"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=efa3d83c-4412-43d4-84dc-d4a1474d7bc7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Discord Rejection Notification">47d5d81d83430310b5629630ceaad3e5</model>
+        <model_id>47d5d81d83430310b5629630ceaad3e5</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_47d5d81d83430310b5629630ceaad3e5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>cfd51c1d83430310b5629630ceaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cfd51c1d83430310b5629630ceaad320"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cfd51c1d83430310b5629630ceaad320"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=47d5d81d83430310b5629630ceaad3e5"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=47d5d81d83430310b5629630ceaad3e5^sys_idNOT INdbd51c1d83430310b5629630ceaad339"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Discord Rejection Notification">47d5d81d83430310b5629630ceaad3e5</action_type_id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>dbd51c1d83430310b5629630ceaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=dbd51c1d83430310b5629630ceaad339"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>workspace_name</element>
+        <help/>
+        <hint/>
+        <label>workspace_name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_47d5d81d83430310b5629630ceaad3e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>5d6f032183030710b5629630ceaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reserved_for</element>
+        <help/>
+        <hint/>
+        <label>reserved_for</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_47d5d81d83430310b5629630ceaad3e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-31 23:17:41</sys_created_on>
+        <sys_id>916f032183030710b5629630ceaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-31 23:17:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_47d5d81d83430310b5629630ceaad3e5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_47d5d81d83430310b5629630ceaad3e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>4fd51c1d83430310b5629630ceaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_47d5d81d83430310b5629630ceaad3e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-30 15:08:35</sys_created_on>
+        <sys_id>cbd51c1d83430310b5629630ceaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-30 15:08:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_47d5d81d83430310b5629630ceaad3e5"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>53439c9583430310b5629630ceaad36d</sys_id>
+        <latest_snapshot>47d5d81d83430310b5629630ceaad3e5</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch10-05-22-2026_06-12-2026_2311.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
