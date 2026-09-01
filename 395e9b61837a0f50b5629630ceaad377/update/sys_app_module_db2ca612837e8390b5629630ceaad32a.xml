@@ -18,14 +18,14 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1209398_wrm.admin</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>erika.truong</sys_created_by>
         <sys_created_on>2026-08-21 18:42:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db2ca612837e8390b5629630ceaad32a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Workspace Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
         <sys_update_name>sys_app_module_db2ca612837e8390b5629630ceaad32a</sys_update_name>
         <sys_updated_by>erika.truong</sys_updated_by>
-        <sys_updated_on>2026-08-24 20:39:00</sys_updated_on>
+        <sys_updated_on>2026-09-01 16:56:22</sys_updated_on>
         <timeline_page/>
         <title>Workspace Options</title>
         <uncancelable>false</uncancelable>
