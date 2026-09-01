@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_req_item</collection>
+        <condition table="sc_req_item">stateCHANGESTO3^cat_item=49c26540830f43d0b5629630ceaad3aa^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_table="sc_cat_item" display_value="Workspace Reservation Request" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="49c26540830f43d0b5629630ceaad3aa"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${requested_for},</p>
+<p>Your workspace reservation has been successfully processed and confirmed.</p>
+<p>Reservation Details:<br><br>&nbsp; &nbsp; Reservation Number: ${number}<br>&nbsp; &nbsp; Start Date and Time: ${variables.start_date_time}<br>&nbsp; &nbsp; End Date and Time: ${variables.end_date_time}<br>&nbsp; &nbsp; Workspace Name: ${variables.workspace_name}<br>&nbsp; &nbsp; Location: ${variables.location}<br>&nbsp; &nbsp; Max Occupancy:&nbsp;<br><br></p>
+<p><br>&nbsp; &nbsp; ⚠️ IMPORTANT CANCELLATION POLICY:<br>&nbsp; &nbsp; In order to cancel your reservation, you must call the support desk directly.&nbsp;<br>&nbsp; &nbsp; Failure to cancel ahead of time will result in no-show consequences.<br><br></p>
+<p>Thank you,</p>
+<p>Workplace Services Team</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Send Workspace Reservation Details</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requested_for</recipient_fields>
+        <recipient_groups name="Workspace Users">5dad563d83cf4710b5629630ceaad310</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Important details for your workspace reservation ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-01 17:39:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ae7033183878710b5629630ceaad354</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Send Workspace Reservation Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sysevent_email_action_8ae7033183878710b5629630ceaad354</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-01 20:03:24</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
