@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1209398_wrm_reservation_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1209398_wrm_reservation_tracker">reservation_statusVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="reservation_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Sync with Worspace Options</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var status = current.reservation_status.toString();
+    var workspace = new GlideRecord('x_1209398_wrm_workspace_options');
+    if (!workspace.get(current.workspace)) {
+        gs.warn('Workspace Sync: could not find workspace ' + current.workspace);
+        return;
+    }
+    if (status == 'pending_check_in' || status == 'checked_in') {
+        workspace.status = 'unavailable';
+    } else if (status == 'checked_out' || status == 'no_show' || status == 'cancelled') {
+        workspace.status = 'available';
+    }
+    workspace.update();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-02 15:24:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc433bca83cf0b10b5629630ceaad32a</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Sync with Worspace Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sys_script_bc433bca83cf0b10b5629630ceaad32a</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-02 18:58:45</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc433bca83cf0b10b5629630ceaad32a"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>bc433bca83cf0b10b5629630ceaad32a</id>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-02 16:53:20</sys_created_on>
+        <sys_id>fa9a88d2838b0b10b5629630ceaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-02 16:53:20</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
