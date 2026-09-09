@@ -15,9 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_1209398_wrm_workspace_maintenance">ticket_status=open^EQ<item display_value="Open" endquery="false" field="ticket_status" goto="false" newquery="false" operator="=" or="false" value="open"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter_condition>
+        <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
         <name>Workspace Maintenance_3&amp;4</name>
@@ -29,49 +27,51 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-    if (!current.workspace)
-        return;
+	// Get the field values from the Workspace Maintenance record
+	var mainStatus = current.getValue('ticket_status'); 
+	var mainWorkspaceStatus = current.getValue('workspace_status'); 
 
-    var updateWorkspace = false;
-    var newStatus = '';
+	// Get the Workspace reference from the maintenance record
+	var workspaceID = current.getValue('workspace'); 
 
-    // New maintenance ticket opened
-    if (current.ticket_status == 'open') {
-        newStatus = 'under_maintenance';
-        updateWorkspace = true;
-    }
+	// Making sure a workspace is selected
+	if (!workspaceID) {
+		gs.info('Workspace Maintenace: No workspace found.');
+		return;
+	}
 
-    // Maintenance ticket closed
-    else if (current.ticket_status.changesTo('closed')) {
+	// Find the corresponding Worspace Options record		
+	var workspaceGR = new GlideRecord('x_1209398_wrm_workspace_options');
 
-        if (current.workspace_status == 'decommissioned') {
-            newStatus = 'decommissioned';
-        } else {
-            newStatus = 'available';
-        }
+	// Update Workspace Options status	
+	if (mainStatus == 'open' && mainWorkspaceStatus == 'in_maintenance') {
 
-        updateWorkspace = true;
-    }
+		workspaceGR.setValue('status','unavailable');
+		workspaceGR.update();
+			
+	} 
+	else if(mainStatus == 'closed' && mainWorkspaceStatus == 'available'){
 
-    if (updateWorkspace) {
-        var workspaceGR = new GlideRecord('x_1209398_wrm_workspace_options'); // Replace with your table name
+		workspaceGR.setValue('status','available');
+		workspaceGR.update();
+	}
+	else if(mainStatus == 'closed' && mainWorkspaceStatus == 'decommissioned'){
 
-        if (workspaceGR.get(current.workspace.toString())) {
-            workspaceGR.status = newStatus;
-            workspaceGR.update();
-        }
-    }
-
-})(current, previous);]]></script>
+		workspaceGR.setValue('status', 'decommissioned');
+		workspaceGR.update();
+	}		
+	
+})(current, previous);
+]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>erika.truong</sys_created_by>
         <sys_created_on>2026-09-02 20:59:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>278f7096838b4b10b5629630ceaad3a1</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Workspace Maintenance_3&amp;4</sys_name>
         <sys_overrides/>
         <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
@@ -79,7 +79,7 @@
         <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
         <sys_update_name>sys_script_278f7096838b4b10b5629630ceaad3a1</sys_update_name>
         <sys_updated_by>erika.truong</sys_updated_by>
-        <sys_updated_on>2026-09-06 19:27:50</sys_updated_on>
+        <sys_updated_on>2026-09-09 23:06:10</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
