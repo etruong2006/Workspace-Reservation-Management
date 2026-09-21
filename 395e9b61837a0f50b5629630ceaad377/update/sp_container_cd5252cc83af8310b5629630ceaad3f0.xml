@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>My Reservation - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="my_reservation">8711520083ef8310b5629630ceaad316</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-20 23:31:23</sys_created_on>
+        <sys_id>cd5252cc83af8310b5629630ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Reservation - Container 1</sys_name>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sp_container_cd5252cc83af8310b5629630ceaad3f0</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-20 23:31:23</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
