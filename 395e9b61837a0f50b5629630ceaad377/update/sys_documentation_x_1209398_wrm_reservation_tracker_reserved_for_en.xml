@@ -11,12 +11,11 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>erika.truong</sys_created_by>
             <sys_created_on>2026-08-24 13:55:12</sys_created_on>
-            <sys_id>ed8b411f837e8b90b5629630ceaad3d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Reserved for</sys_name>
-            <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+            <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
             <sys_policy/>
-            <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+            <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
             <sys_update_name>sys_documentation_x_1209398_wrm_reservation_tracker_reserved_for_en</sys_update_name>
             <sys_updated_by>erika.truong</sys_updated_by>
             <sys_updated_on>2026-08-24 13:55:12</sys_updated_on>

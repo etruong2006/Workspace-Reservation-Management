@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="report_admin" name="report_admin">fdc4e4540a0a0b8e0136581790249b7a</contains>
+        <role display_value="x_1209398_wrm.wrm_admin" name="x_1209398_wrm.wrm_admin">943523a183ba0f50b5629630ceaad366</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 14:58:37</sys_created_on>
+        <sys_id>ce1aaf2d83ba0f50b5629630ceaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>report_admin.x_1209398_wrm.wrm_admin</sys_name>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sys_user_role_contains_ce1aaf2d83ba0f50b5629630ceaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 14:58:37</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</application>
+        <file_path/>
+        <instance_id>b2804a059335e654d9f6ddd548373c5e</instance_id>
+        <instance_name>dev349942</instance_name>
+        <name>sys_user_role_contains_ce1aaf2d83ba0f50b5629630ceaad35d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="report_admin" name="report_admin">fdc4e4540a0a0b8e0136581790249b7a</contains><role display_value="x_1209398_wrm.wrm_admin" name="x_1209398_wrm.wrm_admin">943523a183ba0f50b5629630ceaad366</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-19 14:58:37</sys_created_on><sys_id>ce1aaf2d83ba0f50b5629630ceaad35d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>report_admin.x_1209398_wrm.wrm_admin</sys_name><sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package><sys_policy/><sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope><sys_update_name>sys_user_role_contains_ce1aaf2d83ba0f50b5629630ceaad35d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-19 14:58:37</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-202253733</payload_hash>
+        <record_name>report_admin.x_1209398_wrm.wrm_admin</record_name>
+        <reverted_from/>
+        <source>e1e373e1833e0f50b5629630ceaad3c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 14:58:37</sys_created_on>
+        <sys_id>021aaf2d83ba0f50b5629630ceaad394</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>1a01a8808890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-20 15:31:54</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>ce1aaf2d1fba0f503de692f7864dd592</update_guid>
+        <update_guid_history>ce1aaf2d1fba0f503de692f7864dd592:-202253733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 15:02:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>e628569c01f74fd0a3f7a2b3c2d48040</sys_id>
+        <sys_metadata>ce1aaf2d83ba0f50b5629630ceaad35d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>report_admin.x_1209398_wrm.wrm_admin</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_scope_delete display_value="">7448b17ac92f4cd8bd29a89889c95c40</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_ce1aaf2d83ba0f50b5629630ceaad35d</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_ce1aaf2d83ba0f50b5629630ceaad35d">021aaf2d83ba0f50b5629630ceaad394</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 15:02:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

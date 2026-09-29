@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0d6aa51e83f28390b5629630ceaad30a" label="Workspace Options" max_length="40" name="x_1209398_wrm_workspace_options" type="collection">
+        <element label="Max occupancy" max_length="40" name="max_occupancy" type="integer"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="100" value="available"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="400" value="decommissioned"/>
+                <element inactive_on_update="false" label="Under maintenance" sequence="300" value="under_maintenance"/>
+                <element inactive_on_update="false" label="Unavailable" sequence="200" value="unavailable"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Workspace name" max_length="40" name="workspace_name" type="string"/>
+        <element label="Workspace description" max_length="1000" name="workspace_description" type="string"/>
+        <element choice="1" label="Workspace type" max_length="40" name="workspace_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Collaboration space" sequence="300" value="collaboration_space"/>
+                <element inactive_on_update="false" label="Hot desk" sequence="100" value="hot_desk"/>
+                <element inactive_on_update="false" label="Focus room" sequence="200" value="focus_room"/>
+                <element inactive_on_update="false" label="Meeting room" sequence="400" value="meeting_room"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

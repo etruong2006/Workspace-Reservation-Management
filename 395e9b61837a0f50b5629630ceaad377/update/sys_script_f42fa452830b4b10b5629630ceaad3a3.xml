@@ -51,9 +51,9 @@
         <sys_mod_count>4</sys_mod_count>
         <sys_name>State Synchronization</sys_name>
         <sys_overrides/>
-        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
         <sys_policy/>
-        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
         <sys_update_name>sys_script_f42fa452830b4b10b5629630ceaad3a3</sys_update_name>
         <sys_updated_by>erika.truong</sys_updated_by>
         <sys_updated_on>2026-09-02 20:31:03</sys_updated_on>

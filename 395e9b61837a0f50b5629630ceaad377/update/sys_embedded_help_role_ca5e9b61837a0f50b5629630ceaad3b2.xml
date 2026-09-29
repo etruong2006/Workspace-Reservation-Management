@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1209398_wrm.admin" name="x_1209398_wrm.admin">8a5e9b61837a0f50b5629630ceaad3ad</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 14:07:17</sys_created_on>
+        <sys_id>ca5e9b61837a0f50b5629630ceaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8a5e9b61837a0f50b5629630ceaad3ad</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ca5e9b61837a0f50b5629630ceaad3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 14:07:17</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-21 13:37:55</sys_created_on>
+        <sys_id>1fcae95e83f28390b5629630ceaad316</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1209398_wrm_workspace_options.itil</sys_name>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_security_acl display_value="x_1209398_wrm_workspace_options">dbcae95e83f28390b5629630ceaad304</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1fcae95e83f28390b5629630ceaad316</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-01 15:14:09</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</application>
+        <file_path/>
+        <instance_id>b2804a059335e654d9f6ddd548373c5e</instance_id>
+        <instance_name>dev349942</instance_name>
+        <name>sys_security_acl_role_1fcae95e83f28390b5629630ceaad316</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>erika.truong</sys_created_by><sys_created_on>2026-08-21 13:37:55</sys_created_on><sys_id>1fcae95e83f28390b5629630ceaad316</sys_id><sys_mod_count>4</sys_mod_count><sys_name>x_1209398_wrm_workspace_options.itil</sys_name><sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package><sys_policy/><sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope><sys_security_acl display_value="x_1209398_wrm_workspace_options">dbcae95e83f28390b5629630ceaad304</sys_security_acl><sys_update_name>sys_security_acl_role_1fcae95e83f28390b5629630ceaad316</sys_update_name><sys_updated_by>erika.truong</sys_updated_by><sys_updated_on>2026-09-01 15:14:09</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>443641243</payload_hash>
+        <record_name>x_1209398_wrm_workspace_options.itil</record_name>
+        <reverted_from/>
+        <source>38d31b2d83030710b5629630ceaad3ef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-01 15:14:09</sys_created_on>
+        <sys_id>0c5ae2b983438710b5629630ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a05d88ea6c0000001</sys_recorded_at>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-01 15:14:09</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c85ae2b949438710c33cc01fdf3cac05</update_guid>
+        <update_guid_history>c85ae2b949438710c33cc01fdf3cac05:443641243,0527aab115438710fd024f81b4a820d4:-2021240218,9a55eabd770387106b6ff70a1d201460:-1910288801,2ee46a7d040387100a5e897ae4742094:1622811334,dfcae95e41f2839044d34ce6dc2bb31a:-1910288801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1209398_wrm_workspace_options.itil">714baa3d83438710b5629630ceaad3cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-01 15:18:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00eb9ab9a14f44808001a524aa126900</sys_id>
+        <sys_metadata>1fcae95e83f28390b5629630ceaad316</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1209398_wrm_workspace_options.itil</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_parent display_value="">dbcae95e83f28390b5629630ceaad304</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_scope_delete display_value="">7448b17ac92f4cd8bd29a89889c95c40</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_1fcae95e83f28390b5629630ceaad316</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_1fcae95e83f28390b5629630ceaad316">0c5ae2b983438710b5629630ceaad306</sys_update_version>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-01 15:18:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>true</display_override>
+        <element>description</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_1209398_wrm_reservation_tracker</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-24 14:26:00</sys_created_on>
+        <sys_id>c802dd9b83be8b90b5629630ceaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sys_dictionary_override_c802dd9b83be8b90b5629630ceaad363</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-24 14:26:00</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</application>
+        <file_path/>
+        <instance_id>b2804a059335e654d9f6ddd548373c5e</instance_id>
+        <instance_name>dev349942</instance_name>
+        <name>sys_dictionary_override_c802dd9b83be8b90b5629630ceaad363</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>true</display_override><element>description</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_1209398_wrm_reservation_tracker</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>erika.truong</sys_created_by><sys_created_on>2026-08-24 14:26:00</sys_created_on><sys_id>c802dd9b83be8b90b5629630ceaad363</sys_id><sys_mod_count>0</sys_mod_count><sys_name>description</sys_name><sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package><sys_policy/><sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope><sys_update_name>sys_dictionary_override_c802dd9b83be8b90b5629630ceaad363</sys_update_name><sys_updated_by>erika.truong</sys_updated_by><sys_updated_on>2026-08-24 14:26:00</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>1023302162</payload_hash>
+        <record_name>description</record_name>
+        <reverted_from/>
+        <source>057117d283b2c390b5629630ceaad345</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-24 14:26:00</sys_created_on>
+        <sys_id>4592d11f83be8b90b5629630ceaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a03429f8850000001</sys_recorded_at>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-24 14:26:00</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>0592d11f93be8b90a2ee6c9fbbe85391</update_guid>
+        <update_guid_history>0592d11f93be8b90a2ee6c9fbbe85391:1023302162</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-08-24 14:40:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>6f0037f8ea2345839081643f70cb2309</sys_id>
+        <sys_metadata>c802dd9b83be8b90b5629630ceaad363</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_parent display_value="Start date/time">048d891383be8b90b5629630ceaad302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_scope_delete display_value="">7448b17ac92f4cd8bd29a89889c95c40</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_c802dd9b83be8b90b5629630ceaad363</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_c802dd9b83be8b90b5629630ceaad363">4592d11f83be8b90b5629630ceaad392</sys_update_version>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-08-24 14:40:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

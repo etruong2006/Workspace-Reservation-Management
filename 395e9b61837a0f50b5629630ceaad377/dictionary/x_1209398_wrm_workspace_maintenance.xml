@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a6128e23837a4f90b5629630ceaad35c" label="Workspace Maintenance" max_length="40" name="x_1209398_wrm_workspace_maintenance" type="collection">
+        <element choice="1" label="Workspace status" max_length="40" name="workspace_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In maintenance" sequence="100" value="in_maintenance"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="300" value="decommissioned"/>
+                <element inactive_on_update="false" label="Available" sequence="200" value="available"/>
+            </choice>
+        </element>
+        <element attributes="ref_ac_columns=number,reserved_for,reservation_status" display="true" label="Reservation" mandatory="true" max_length="32" name="reservation" reference="x_1209398_wrm_reservation_tracker" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Date reported" mandatory="true" max_length="40" name="date_reported" type="glide_date"/>
+        <element label="Workspace" mandatory="true" max_length="32" name="workspace" reference="x_1209398_wrm_workspace_options" type="reference"/>
+        <element label="Work performed" max_length="1000" name="work_performed" type="string"/>
+        <element label=" Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Issue description" mandatory="true" max_length="1000" name="issue_description" type="string"/>
+        <element choice="1" label="Ticket status" mandatory="true" max_length="40" name="ticket_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="50" value="closed"/>
+                <element inactive_on_update="false" label="Open" sequence="25" value="open"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="reservation"/>
+        </index>
+        <index name="index4">
+            <element name="workspace"/>
+        </index>
+    </element>
+</database>

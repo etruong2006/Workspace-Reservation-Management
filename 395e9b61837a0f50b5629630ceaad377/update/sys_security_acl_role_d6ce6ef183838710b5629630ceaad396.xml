@@ -6,9 +6,9 @@
         <sys_id>d6ce6ef183838710b5629630ceaad396</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1209398_wrm_reservation_tracker.x_1209398_wrm.agent</sys_name>
-        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
         <sys_policy/>
-        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
         <sys_security_acl display_value="x_1209398_wrm_reservation_tracker">5dc9701783fa8b90b5629630ceaad3ae</sys_security_acl>
         <sys_update_name>sys_security_acl_role_d6ce6ef183838710b5629630ceaad396</sys_update_name>
         <sys_updated_by>erika.truong</sys_updated_by>

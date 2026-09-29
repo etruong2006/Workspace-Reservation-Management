@@ -138,9 +138,9 @@ border: 2px solid $link-color;&#13;
         <sys_id>0fa535c5835b8390b5629630ceaad3d8</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>IF YOU ARE IN NEED OF A WORKSPACE, YOU ARE IN THE RIGHT PLACE</sys_name>
-        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
         <sys_policy/>
-        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
         <sys_update_name>sp_instance_ais_0fa535c5835b8390b5629630ceaad3d8</sys_update_name>
         <sys_updated_by>erika.truong</sys_updated_by>
         <sys_updated_on>2026-09-20 22:59:11</sys_updated_on>

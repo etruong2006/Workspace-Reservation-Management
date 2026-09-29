@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>reservation_tracker</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Reservation Tracker</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-23 19:38:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ed93c4d8323cb10b5629630ceaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Tracker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0ed93c4d8323cb10b5629630ceaad3bf</sys_update_name>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-23 19:38:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_variable_value action="DELETE" query="document_key=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_hub_step_instance action="DELETE" query="action=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_hub_action_input action="DELETE" query="model=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_hub_action_output action="DELETE" query="model=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=0ed93c4d8323cb10b5629630ceaad3bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</application>
+        <file_path/>
+        <instance_id>b2804a059335e654d9f6ddd548373c5e</instance_id>
+        <instance_name>dev349942</instance_name>
+        <name>sys_hub_action_type_definition_0ed93c4d8323cb10b5629630ceaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>28100</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><flow_priority/><ih_action>false</ih_action><internal_name>reservation_tracker</internal_name><label_cache/><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Reservation Tracker</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>erika.truong</sys_created_by><sys_created_on>2026-09-23 19:38:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0ed93c4d8323cb10b5629630ceaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reservation Tracker</sys_name><sys_overrides/><sys_package display_value="wrm" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package><sys_policy/><sys_scope display_value="wrm">395e9b61837a0f50b5629630ceaad377</sys_scope><sys_update_name>sys_hub_action_type_definition_0ed93c4d8323cb10b5629630ceaad3bf</sys_update_name><sys_updated_by>erika.truong</sys_updated_by><sys_updated_on>2026-09-23 19:38:42</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=0ed93c4d8323cb10b5629630ceaad3bf"/><sys_variable_value action="delete_multiple" query="document_key=0ed93c4d8323cb10b5629630ceaad3bf"/><sys_hub_step_instance action="delete_multiple" query="action=0ed93c4d8323cb10b5629630ceaad3bf"/><sys_hub_action_input action="delete_multiple" query="model=0ed93c4d8323cb10b5629630ceaad3bf"/><sys_hub_action_output action="delete_multiple" query="model=0ed93c4d8323cb10b5629630ceaad3bf"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=0ed93c4d8323cb10b5629630ceaad3bf"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0ed93c4d8323cb10b5629630ceaad3bf"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0ed93c4d8323cb10b5629630ceaad3bf"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0ed93c4d8323cb10b5629630ceaad3bf"/><sys_hub_action_plan action="delete_multiple" query="action_id=0ed93c4d8323cb10b5629630ceaad3bf"/></record_update>]]></payload>
+        <payload_hash>77654151</payload_hash>
+        <record_name>Reservation Tracker</record_name>
+        <reverted_from/>
+        <source>515f1cc1836f8b10b5629630ceaad333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-23 19:38:43</sys_created_on>
+        <sys_id>c6d9708d8323cb10b5629630ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0cfc70a990000001</sys_recorded_at>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-23 19:38:43</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>46d9708dae23cb10fdf7921ce3535c1e</update_guid>
+        <update_guid_history>46d9708dae23cb10fdf7921ce3535c1e:77654151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>erika.truong</sys_created_by>
+        <sys_created_on>2026-09-23 19:39:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>2e5ac156bbf545009811a12dc3359b10</sys_id>
+        <sys_metadata>0ed93c4d8323cb10b5629630ceaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservation Tracker</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1209398_wrm">395e9b61837a0f50b5629630ceaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">395e9b61837a0f50b5629630ceaad377</sys_scope>
+        <sys_scope_delete display_value="">7448b17ac92f4cd8bd29a89889c95c40</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_0ed93c4d8323cb10b5629630ceaad3bf</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_0ed93c4d8323cb10b5629630ceaad3bf">c6d9708d8323cb10b5629630ceaad31f</sys_update_version>
+        <sys_updated_by>erika.truong</sys_updated_by>
+        <sys_updated_on>2026-09-23 19:39:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
